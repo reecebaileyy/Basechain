@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat files
+cache/
+artifacts/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build directories
+dist/
+build/
+
+# Coverage reports
+coverage/
+coverage.json
+lcov-report/
+
+# Hardhat-specific outputs
+typechain/
+
+# Debugging files
+*.tsbuildinfo
+
+# Generated files by IDEs or tools
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
